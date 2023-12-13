@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Maurin Gilles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Maurin Gilles, Isima, Informatique, Informaticien, Ingénieur, Etudiant, Stagiaire, Clermont-Ferrand, Développeur">
+    <meta name="description" content="Page d'accueil du site web de Maurin Gilles.">
+    <link rel="icon" type="image/x-icon" href="./imgs/logo.svg">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="./styles/responsive.css">
+    <script src="./script/script.js"></script>
+</head>
+
+
+
+<body>
+
+    <nav class="menu-container">
+
+        <!-- burger menu -->
+        <input type="checkbox" aria-label="Toggle menu" />
+        <span></span>
+        <span></span>
+        <span></span>
+    
+        <!-- logo -->
+        <a  href=""class="menu-logo">
+          <img src="./imgs/logo.svg" alt="magilles5's logo"/>
+        </a>
+    
+        <!-- menu items -->
+        <div class="menu">
+          <ul></ul>
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./aboutme.html">About me</a>
+            </li>
+            <li>
+              <a href="./iwashere.html">I was here!</a>
+            </li>
+            <li>
+              <a href="./articles.html">Articles</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    
+    <section class="articles_main">
+
+      <div class="cool_text">
+        <svg viewBox="0 0 960 180">
+          <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">Articles</text>
+          </symbol>
+      
+          <g class = "g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+          </g>
+        </svg>
+      </div>
+      
+
+
+      <section class="articles_intro">
+        This page gathers all the articles that I have written for the GaZZette, my school's newspaper.<br>
+        Unfortunately <b>they are written in
+        <span style="color:blue">Fr</span><span style="color:white">en</span><span style="color:red">ch</span> </b>
+        , and I don't feel patient enough to translate all of them into English :') <br><br>
+
+        You'll find my articles in the list below, each with a description and a button to download them. Otherwise, you can also wheck the full GaZZette editions here :
+      </section>
+
+      <!-- 
+      <form action="https://drive.google.com/drive/folders/1ACsyEZlbqycBdCJaPi6UkyzLOApAigR-?usp=drive_link">
+        <button type="submit" class="gzzt_btn" >View all the GaZZette editions (french)</button>
+      </form>
+      -->
+      
+      
+      <button type="submit" class="gzzt_btn" >
+        <a href="https://drive.google.com/drive/folders/1ACsyEZlbqycBdCJaPi6UkyzLOApAigR-?usp=drive_link">
+          See all the GaZZette editions (french)
+        </a>
+      </button>
+
+      <h1>All my articles</h1>
+
+
+      <ul class="articles_list">
+
+        <!-- Copy & Paste to add an article : -->
+        <!--
+
+        <div class="animated_dashed_line">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div></div>
+        
+        <li class="article" id="gzztXX_article">
+          <img class="article_img" src="./gzzt/covers/GaZZette_XX_cover.jpg"/>
+
+          <div class="article_presentation">
+            <h2>Article Name</h2>
+            <p>
+              Article presentation
+            </p>
+          </div>
+          
+          <form method="get" action="gzzt/articles/GaZZette_XX_article.pdf">
+            <button type="submit" class="article_btn">Read it</button>
+          </form>
+        </li>
+
+        -->
+
+
+        
+        <div class="animated_dashed_line">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div></div>
+        
+        <li class="article" id="gzzt49_za">
+          <img class="article_img" src="./gzzt/covers/GaZZette_49_cover.jpg"/>
+
+          <div class="article_presentation">
+            <h2>ZZeptième Art : 12 hommes en colère</h2>
+            <p>
+              Les listes pour la passation du BDE d'Isima étaient formées, et les campagnes faisaient rage. 
+              Observant le phénomène de l'intérieur, j'y vis une abondance de biais sociaux qui me rappela le chef-d'œuvre de Sidney Lumet. 
+              Dans ce deuxième numéro de ma petite chronique cinéma, c'était 12 hommes en colère !
+            </p>
+          </div>
+          
+          <form method="get" action="gzzt/articles/GaZZette_49_ZA.pdf">
+            <button type="submit" class="article_btn">Read it</button>
+         </form>
+        </li>
+
+        <div class="animated_dashed_line">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div></div>
+
+        <li class="article" id="gzzt48_za">
+          <img class="article_img" src="./gzzt/covers/GaZZette_48_cover.jpg">
+
+          <div class="article_presentation">
+            <h2>ZZeptième Art : Office Space</h2>
+            <p>
+              En lançant cette chronique, j'ai l'ambition de parler de cinéma à des geeks. 
+              Toutefois, il est hors de question que je parle de Star Wars. Heureusement, j'ai mieux dans la catégorie <i>Film culte des geeks</i> : une comédie américaine comme ils n'en font plus. 
+              Dans ce premier numéro de ZZeptième Art, c'est Office Space de Mike Judge.
+            </p>
+          </div>
+          
+          <form method="get" action="gzzt/articles/GaZZette_48_ZA.pdf">
+            <button type="submit" class="article_btn">Read it</button>
+         </form>
+        </li>
+
+        <div class="animated_dashed_line">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div></div>
+
+        <li class="article" id="gzzt_48_election">
+          <img class="article_img" src="./gzzt/covers/GaZZette_48_cover.jpg">
+
+          <div class="article_presentation">
+            <h2>Elections de l'Université Clermont Auvergne</h2>
+            <p>
+              Cet article sort une semaine avant que les élections pour les représentants des étudiants au conseil d'adminstration de l'université aient lieu.
+              Ce sont donc des élections très importantes, mais à laquelle le taux de participation est affreusement bas, les étudiants étant trop mal renseignés à son sujet.
+              Dans cet article, je récapitule l'intérêt de ces élections à travers un organigramme simplifié et une interview.
+          </div>
+          
+          <form method="get" action="gzzt/articles/GaZZette_48_elections.pdf">
+            <button type="submit" class="article_btn">Read it</button>
+         </form>
+        </li>
+
+        <div class="animated_dashed_line">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div></div>
+      </ul>
+
+      
+
+    </section>
+
+</body>
+</html>
