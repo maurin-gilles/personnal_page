@@ -28,6 +28,10 @@ li {
   overflow:hidden;
 }
 
+a {
+  overflow: visible;
+}
+
 section {
   background-color: #EBE8E7;
 }
@@ -161,6 +165,7 @@ p a:hover {
 #background img {
   width: 100%;
   object-fit: cover;
+  object-position: top;
   overflow:hidden;
 }
 
@@ -591,6 +596,48 @@ svg {
 .article_btn:hover {
   background:rgba(233,206,44,70%);
 }
+
+/***************************************************************************************************************************************************************************************************/
+/* Contact *
+/***************************************************************************************************************************************************************************************************/
+
+.contact_main {
+  min-height : 100vh;
+  padding:200px 25vw 0 25vw;
+  background-color: #ebe8e7;
+  
+}
+
+.contact_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_list li {
+  margin: 1em 0 0.5em 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  max-height:2em;
+  margin-right:2em;
+}
+
+.contact_list li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #B0228C;
+}
+
+.contact_list li a:hover {
+  text-decoration: none;
+  color: #E9CE2C;
+  transform: rotate(5deg);
+}
+
+
+
 
 /***************************************************************************************************************************************************************************************************/
 /* DESKTOP ONLY STYLE*/
