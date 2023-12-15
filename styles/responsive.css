@@ -139,6 +139,20 @@
     .article_btn {
       font-size: small;
     }
+
+    .contact_main {
+      padding: 80px 5vw 0 5vw;
+      align-items: center;
+    }
+
+    .contact_list li {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .contact_list li * {
+      margin-bottom: 0.2em;
+    }
     
   
   }
