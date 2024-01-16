@@ -544,6 +544,7 @@ svg {
 }
 
 .gzzt_btn:hover {
+  background: linear-gradient(-45deg, rgba(176,34,140,70%) 50%, rgba(233,206,44,70%) 50%);
   overflow:visible;
   transform: scale(110%);
 }
@@ -591,6 +592,8 @@ svg {
   border-radius:50%;
   background:rgba(176,34,140,70%);
   color:black;
+  text-align: center;
+  vertical-align: bottom;
 }
 
 .article_btn:hover {
