@@ -333,13 +333,17 @@ p a:hover {
   margin: -6em 0 -8em 4em;
 }
 
+#iwh_fedea {
+  margin-top:7vh;
+}
+
 #iwh_gazzette {
-  margin-top:10vh;
+  margin-top:15vh;
   rotate:8deg;
 }
 
 #iwh_gazzette p {
-  padding: 0em 0em 0em 1em;
+  padding: 0em 0em 0em 0em;
 }
 
 #iwh_gazzette h2, #iwh_gazzette p,  #iwh_gazzette img {
@@ -353,7 +357,7 @@ p a:hover {
 }
 
 #iwh_isff, #aboutme_music {
-  margin-top:10vh;
+  margin-top:8vh;
   rotate:-2deg;
 }
 
@@ -366,6 +370,15 @@ p a:hover {
   max-height:12em;
   margin-left:2em;
   margin-top:1em;
+}
+
+#iwh_telluzzeon {
+  rotate:1deg;
+  margin-top:12vh;
+}
+
+#iwh_telluzzeon p, #iwh_telluzzeon h2{
+  rotate:1deg;
 }
 
 /***************************************************************************************************************************************************************************************************/
