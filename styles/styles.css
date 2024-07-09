@@ -155,40 +155,22 @@ p a:hover {
 /* INDEX */
 /***************************************************************************************************************************************************************************************************/
 
-#background {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  overflow:hidden;
-}
-
-#background img {
-  width: 100%;
-  object-fit: cover;
-  object-position: top;
-  overflow:hidden;
-}
-
-#overlay {
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  opacity: 0.8;
-  overflow:hidden;
-}
-
-#overlay img {
-  width: 100%;
-  object-fit: cover;
-  overflow:hidden;
-}
 
 .index_main {
   background-color: #EBE8E7;
-  position: absolute;
   width:100%;
   z-index: 1;
-  overflow: hidden;
+}
+
+.main_image {
+  max-width:100%;
+  width:100%;
+  margin-top:130px;
+}
+
+.main_image img {
+  width:100%;
+  border-bottom: solid thick #E9CE2C;
 }
 
 .index_main h1 {

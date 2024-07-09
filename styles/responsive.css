@@ -43,16 +43,10 @@
       position:fixed;
     }
 
-    .welcome_images * {
-      height:320px;
-      position:static;
-    }
-
-    .index_main {
-      top:0;
-      margin-top:320px;
-      z-index:2;
-      border-top: solid 6px rgba(205,64,169,1);
+    .main_image {
+      max-width:100%;
+      width:100%;
+      margin-top:50px;
     }
 
     .index_main h1 {
