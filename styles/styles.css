@@ -306,8 +306,13 @@ p a:hover {
 }
 
 #enigma_logo {
-  max-height: 10em;
+  max-height: 12em;
   margin: 0 0 -2em 40vw;
+}
+
+#telluzzeon_logo {
+  max-height: 11em;
+  margin: 0 0 -3em 45vw;
 }
 
 #fedea_logo {
@@ -359,8 +364,8 @@ p a:hover {
   margin-top:12vh;
 }
 
-#iwh_telluzzeon p, #iwh_telluzzeon h2{
-  rotate:1deg;
+#iwh_telluzzeon p, #iwh_telluzzeon h2, #iwh_telluzzeon img {
+  rotate:-1deg;
 }
 
 /***************************************************************************************************************************************************************************************************/
@@ -426,7 +431,7 @@ svg {
 /***************************************************************************************************************************************************************************************************/
 
 .animated_dashed_line {
-  height:4px;
+  height:2px;
   width:100vw;
   display:inline-flex;
 }
