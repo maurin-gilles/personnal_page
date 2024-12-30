@@ -320,8 +320,16 @@ p a:hover {
   margin: -6em 0 -8em 4em;
 }
 
+#iwh_lebon {
+  rotate: -7deg;
+}
+
+#iwh_lebon h2, #iwh_lebon p {
+  rotate:7deg;
+}
+
 #iwh_fedea {
-  margin-top:7vh;
+  margin-top:14vh;
 }
 
 #iwh_gazzette {
@@ -361,7 +369,7 @@ p a:hover {
 
 #iwh_telluzzeon {
   rotate:1deg;
-  margin-top:12vh;
+  margin-top:10vh;
 }
 
 #iwh_telluzzeon p, #iwh_telluzzeon h2, #iwh_telluzzeon img {
@@ -713,7 +721,7 @@ svg {
   }
 
   #iwh_lebon {
-    margin-left:15vw;
+    margin-left:25vw;
     width:52vw;
   }
 
